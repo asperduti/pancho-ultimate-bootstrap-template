@@ -4,34 +4,38 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
         <link href="css/style.css" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
         <title>Blog | Ariel Sperduti | Software Developer</title>
     </head>
     <body>
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-white shadow fixed-top">
-            <a class="navbar-brand" href="#">
-                <img src="images/favicon.png" height="45" alt="">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link" href="index.html">Home</a>
-                    <a class="nav-item nav-link active" href="blog.html">Blog <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="contact.html">Contact</a>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-white shadow fixed-top">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img class="img-fluid" src="images/favicon.png" width="45" height="45" alt="">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link" href="index.html">Home</a>
+                            <a class="nav-link active" href="blog.html">Blog <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </nav>
-        
+            </nav>
+        </header>
         <!--Hi-iam quick introduction-->
-        <header id="blog-post-header">
-            <section id="hi-iam" class="block bg-grey">
-                <div class="container">
+        <main>
+                <div class="container bg-grey">
                     <div class="row justify-content-center">
                         <div class="col-12 col-md-8 col-lg-6 text-center">
                             <p class="h2"><strong>Get exclusive content</strong></p>
@@ -47,87 +51,85 @@
                         </div>   
                     </div>
                 </div>
-            </section>
-        </header>
-
-        <main class="container" role="main">
-            <div class="row block">
-                <div class="col-lg-8 col-md-10 mx-auto">
-                    <article class="post-preview">
-                        <a href="post.html">
-                            <h2 class="post-title">Post Example</h2>
-                        </a>
-                        <p class="post-meta">
-                            <img src="images/profile_pic.png" alt="Ariel Sperduti's photo"
-                                class="blog-post-header-author-img img-fluid rounded-circle bg-grey">
-                            by Ariel Sperduti. Updated on Feb. 04, 2020
-                        </p>
-                        <p class="post-extract">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce gravida magna tincidunt, tristique est non, ultrices
-                            nisi. Proin efficitur, mi eget luctus semper, mauris augue porttitor magna, nec commodo risus eros nec dui. Nulla
-                            posuere ex ut mauris cursus malesuada. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce mattis
-                            hendrerit ultrices. Ut ultrices laoreet erat, vel blandit augue vulputate eu. Nullam nec libero nibh. Nunc tempus
-                            lectus ut tempus sollicitudin. Cras maximus est sit amet interdum mollis. Nullam sed porttitor nisl, pretium rutrum
-                            metus. Fusce vulputate eu nunc a feugiat. Proin eget bibendum lectus, in pulvinar eros. Etiam sagittis sem et ligula
-                            fermentum accumsan.
-                        </p>
-                        <a href="post.html" class="btn btn-primary">Continue reading</a>
-                        <hr>
-                    </article>
-                    <article class="post-preview">
-                        <a href="post.html">
-                            <h2 class="post-title">Post Example</h2>
-                        </a>
-                        <p class="post-meta">
-                            <img src="images/profile_pic.png" alt="Ariel Sperduti's photo"
-                                class="blog-post-header-author-img img-fluid rounded-circle bg-grey">
-                            by Ariel Sperduti. Updated on Feb. 04, 2020
-                        </p>
-                        <p class="post-extract">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce gravida magna tincidunt, tristique est non,
-                            ultrices
-                            nisi. Proin efficitur, mi eget luctus semper, mauris augue porttitor magna, nec commodo risus eros nec dui.
-                            Nulla
-                            posuere ex ut mauris cursus malesuada. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce
-                            mattis
-                            hendrerit ultrices. Ut ultrices laoreet erat, vel blandit augue vulputate eu. Nullam nec libero nibh. Nunc
-                            tempus
-                            lectus ut tempus sollicitudin. Cras maximus est sit amet interdum mollis. Nullam sed porttitor nisl, pretium
-                            rutrum
-                            metus. Fusce vulputate eu nunc a feugiat. Proin eget bibendum lectus, in pulvinar eros. Etiam sagittis sem et
-                            ligula
-                            fermentum accumsan.
-                        </p>
-                        <a href="post.html" class="btn btn-primary">Continue reading</a>
-                        <hr>
-                    </article>
-                    <article class="post-preview">
-                        <a href="post.html">
-                            <h2 class="post-title">Post Example</h2>
-                        </a>
-                        <p class="post-meta">
-                            <img src="images/profile_pic.png" alt="Ariel Sperduti's photo"
-                                class="blog-post-header-author-img img-fluid rounded-circle bg-grey">
-                            by Ariel Sperduti. Updated on Feb. 04, 2020
-                        </p>
-                        <p class="post-extract">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce gravida magna tincidunt, tristique est non,
-                            ultrices
-                            nisi. Proin efficitur, mi eget luctus semper, mauris augue porttitor magna, nec commodo risus eros nec dui.
-                            Nulla
-                            posuere ex ut mauris cursus malesuada. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce
-                            mattis
-                            hendrerit ultrices. Ut ultrices laoreet erat, vel blandit augue vulputate eu. Nullam nec libero nibh. Nunc
-                            tempus
-                            lectus ut tempus sollicitudin. Cras maximus est sit amet interdum mollis. Nullam sed porttitor nisl, pretium
-                            rutrum
-                            metus. Fusce vulputate eu nunc a feugiat. Proin eget bibendum lectus, in pulvinar eros. Etiam sagittis sem et
-                            ligula
-                            fermentum accumsan.
-                        </p>
-                        <a href="post.html" class="btn btn-primary">Continue reading</a>
-                        <hr>
-                    </article>
+            <div class="container">
+                <div class="row block">
+                    <div class="col-lg-8 col-md-10 mx-auto">
+                        <article>
+                            <a href="post.html">
+                                <h2 class="post-title">Post Example</h2>
+                            </a>
+                            <p class="small text-center">
+                                <img src="images/profile_pic.png" alt="Ariel Sperduti's photo"
+                                    class="blog-post-header-author-img img-fluid rounded-circle bg-grey">
+                                by Ariel Sperduti. Updated on Feb. 04, 2020
+                            </p>
+                            <p class="text-justify">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce gravida magna tincidunt, tristique est non, ultrices
+                                nisi. Proin efficitur, mi eget luctus semper, mauris augue porttitor magna, nec commodo risus eros nec dui. Nulla
+                                posuere ex ut mauris cursus malesuada. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce mattis
+                                hendrerit ultrices. Ut ultrices laoreet erat, vel blandit augue vulputate eu. Nullam nec libero nibh. Nunc tempus
+                                lectus ut tempus sollicitudin. Cras maximus est sit amet interdum mollis. Nullam sed porttitor nisl, pretium rutrum
+                                metus. Fusce vulputate eu nunc a feugiat. Proin eget bibendum lectus, in pulvinar eros. Etiam sagittis sem et ligula
+                                fermentum accumsan.
+                            </p>
+                            <a href="post.html" class="btn btn-primary">Continue reading</a>
+                            <hr>
+                        </article>
+                        <article>
+                            <a href="post.html">
+                                <h2 class="post-title">Post Example</h2>
+                            </a>
+                            <p class="small text-center">
+                                <img src="images/profile_pic.png" alt="Ariel Sperduti's photo"
+                                    class="blog-post-header-author-img img-fluid rounded-circle bg-grey">
+                                by Ariel Sperduti. Updated on Feb. 04, 2020
+                            </p>
+                            <p class="text-justify">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce gravida magna tincidunt, tristique est non,
+                                ultrices
+                                nisi. Proin efficitur, mi eget luctus semper, mauris augue porttitor magna, nec commodo risus eros nec dui.
+                                Nulla
+                                posuere ex ut mauris cursus malesuada. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce
+                                mattis
+                                hendrerit ultrices. Ut ultrices laoreet erat, vel blandit augue vulputate eu. Nullam nec libero nibh. Nunc
+                                tempus
+                                lectus ut tempus sollicitudin. Cras maximus est sit amet interdum mollis. Nullam sed porttitor nisl, pretium
+                                rutrum
+                                metus. Fusce vulputate eu nunc a feugiat. Proin eget bibendum lectus, in pulvinar eros. Etiam sagittis sem et
+                                ligula
+                                fermentum accumsan.
+                            </p>
+                            <a href="post.html" class="btn btn-primary">Continue reading</a>
+                            <hr>
+                        </article>
+                        <article>
+                            <a href="post.html">
+                                <h2 class="post-title">Post Example</h2>
+                            </a>
+                            <p class="small text-center">
+                                <img src="images/profile_pic.png" alt="Ariel Sperduti's photo"
+                                    class="blog-post-header-author-img img-fluid rounded-circle bg-grey">
+                                by Ariel Sperduti. Updated on Feb. 04, 2020
+                            </p>
+                            <p class="text-justify">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce gravida magna tincidunt, tristique est non,
+                                ultrices
+                                nisi. Proin efficitur, mi eget luctus semper, mauris augue porttitor magna, nec commodo risus eros nec dui.
+                                Nulla
+                                posuere ex ut mauris cursus malesuada. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce
+                                mattis
+                                hendrerit ultrices. Ut ultrices laoreet erat, vel blandit augue vulputate eu. Nullam nec libero nibh. Nunc
+                                tempus
+                                lectus ut tempus sollicitudin. Cras maximus est sit amet interdum mollis. Nullam sed porttitor nisl, pretium
+                                rutrum
+                                metus. Fusce vulputate eu nunc a feugiat. Proin eget bibendum lectus, in pulvinar eros. Etiam sagittis sem et
+                                ligula
+                                fermentum accumsan.
+                            </p>
+                            <a href="post.html" class="btn btn-primary">Continue reading</a>
+                            <hr>
+                        </article>
+                    </div>
                 </div>
             </div>
         </main>
@@ -136,7 +138,7 @@
         </div>
 
         <!--Footer-->
-        <footer class="bg-dark py-3">
+        <footer class="footer mt-auto bg-dark py-3">
             <div class="container">
                 <div class="row text-center align-items-center">
                     <div class="col">
@@ -152,18 +154,15 @@
                             </li>
                         </ul>
         
-                        <p>© 1988-2020 <a href="https://arielsperduti.com">Ariel Sperduti</a></p>
+                        <p>© 1988-2021 Pancho by <a href="https://arielsperduti.com">Ariel Sperduti</a></p>
                     </div>
                 </div>
             </div>
         </footer>
 
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-            crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
             crossorigin="anonymous"></script>
 
     </body>

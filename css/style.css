@@ -1,9 +1,6 @@
-body {
-  color: #262626; }
-
-img {
-  vertical-align: middle;
-  border-style: none; }
+main > .container:first-child {
+  padding-top: 90px;
+}
 
 .bg-grey {
   background-color: #f7f7f7; }
